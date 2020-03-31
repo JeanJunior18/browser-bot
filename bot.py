@@ -7,7 +7,7 @@ class WhatsappBot:
         self.remet = ['Srta. Beatriz', 'Leandro', 'José Lucas']
         options = webdriver.ChromeOptions()
         options.add_argument('lang=pt-br')
-        self.driver = webdriver.Chrome(executable_path=r'./chromedriver.exe')
+        self.driver = webdriver.Chrome()
         
 
     def SendMsg(self):
